@@ -224,7 +224,7 @@ def execFoward(isTime):
             except Exception as e:
                 print("出错了")
                 print(e)
-    elif isTime == "no":
+    elif isTime == "n":
         weiboFoward.forwardWb(keyword)
     else:
         isTime = input("请输入y或n:")
